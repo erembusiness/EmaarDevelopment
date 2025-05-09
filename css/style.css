@@ -95,7 +95,8 @@ overflow-y: hidden;
 }
 
 .subtitle-text {
-    color: #4a5568;
+   
+    color: #000;
 }
 
 .date-badge {
@@ -272,11 +273,17 @@ overflow-y: hidden;
     }
     .title-text {
       
-        font-size: 20px;
+       
+        font-size: 18px;
+        font-weight: bold;
     }
     .subtitle-text {
         
-        font-size: 20px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .sec-one .slide-container {
+        overflow-y: hidden;
     }
     .grid-cols-3 {
         grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -318,7 +325,7 @@ overflow-y: hidden;
         line-height: 1.75rem;
     }
     .section-three .text-xl{
-        font-size: 16px;
+        font-size: 14px;
     }
     .section-four .text-4xl{
         font-size: 18px;
@@ -340,7 +347,7 @@ overflow-y: hidden;
 
     .swiper-slide{
         height: 100vh;
-        overflow-y: scroll;
+        overflow-y: hidden;
     }
     .content-wrapper{
         height: auto;
