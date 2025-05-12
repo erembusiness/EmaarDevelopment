@@ -224,10 +224,7 @@ overflow-y: hidden;
 
 
 /* ################################## */
-.swiper-slide{
-    height: 100vh;
-    overflow-y: scroll;
-}
+
 .swiper.swiper-cards {
     overflow: hidden;
 }
@@ -375,5 +372,9 @@ overflow-y: hidden;
     }
     .section-five .flex-style-mobile a{
         font-size: 12px;
+    }
+    .swiper-slide{
+        height: 100vh;
+        overflow-y: scroll;
     }
 }
